@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Desa Wisata {{ config('app.name', 'Desa Wisata') }}</title>
+    <title>Wisata Kawasan {{ config('app.name', 'Wisata Kawasan') }}</title>
 
     <!-- Fonts -->
     <link rel="icon" href="{{ $logo->deskripsi }}">

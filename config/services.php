@@ -35,9 +35,9 @@ return [
         'redirect' => 'https://desawisatajanggadolok.com/login/facebook/callback',
     ],
     'google' => [
-        'client_id' => '747101180961-o03u0ms8vj4k0s7e9gt296ve09g44r3j.apps.googleusercontent.com',
-        'client_secret' => 'nYQoZgeaEjEgnyqOUHKP2dnd',
-        'redirect' => 'https://desawisatajanggadolok.com/login/google/callback',
+        'client_id' => '1091792473914-2mardbcas9h4kchs6975p8bt0ac45bbl.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'http://127.0.0.1:8000/login/google/callback',
     ],
 
 ];
