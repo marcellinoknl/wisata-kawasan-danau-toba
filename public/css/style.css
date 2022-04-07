@@ -273,6 +273,14 @@
     text-align: center;
     padding: 20px;
 }
+.substitle {
+    font-family: 'BentonSans';
+    font-size: 20pt;
+    text-transform: initial;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
 
 .sub-title {
     font-family: 'BentonSans Bold';

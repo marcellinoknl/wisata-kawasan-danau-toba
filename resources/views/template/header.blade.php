@@ -158,7 +158,7 @@
 
         .nav__link {
             color: #F7F7F7 !important;
-        }
+        }   
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
@@ -386,7 +386,7 @@
                                             </ul>
                                         </li>
                                         <li id="nav__item--92" class="li nav__item nav__menu-item">
-                                            <a class="nav__link nav__link--toplevel" href="/aktivitas-wisata-all">Wisata Desa</a>
+                                            <a class="nav__link nav__link--toplevel" href="/aktivitas-wisata-all">Desa Wisata</a>
                                         </li>
                                         <li id="nav__item--178" class="li nav__item nav__menu-item nav__menu-item--has-children"
                                             tabindex="0">

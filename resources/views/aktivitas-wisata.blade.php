@@ -1,9 +1,12 @@
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
 @include('template.header')
+
 
 <div class="container background">
     <div class="row form-group">
-        <div class="title">Wisata Desa</div>
+        <div class="title">Desa Wisata</div>
+        <div class="substitle" style="">Jelajahi Budaya dan Warisan Unik di Danau Toba!</div>
     </div>
 
     <div class="row form-group" id="berita-terbaru">
@@ -27,13 +30,15 @@
                 </div>
             </q-card>
         </div>
+
+
         @endforeach
         @else
         <div class="col-md-12 mt-lg-5 mb-lg-5">
             <br>
             <div class="jumbotron jumbotron-fluid w-100">
                 <div class="container">
-                    <h5 class="display-5  d-flex justify-content-center">Informasi wisata desa belum
+                    <h5 class="display-5  d-flex justify-content-center">Informasi Desa Wisata belum
                         tersedia</h5>
                 </div>
             </div>
@@ -51,5 +56,7 @@
         </div>
     </div> -->
 </div>
+
+
 
 @include('template.footer2')

@@ -156,7 +156,7 @@
 
                 {{-- menu kelola wisata desa yang dipeach --}}
                     <li>
-                        <a href="/kelola-aktivitas">Wisata Desa</a>
+                        <a href="/kelola-aktivitas">Desa Wisata</a>
                     </li>
                     <li>
                         <a href="/kelola-wisata">Objek Wisata Berdasarkan Ketegori</a>
@@ -168,18 +168,18 @@
                         <a href="/kelola-kat-wisata">Kategori Wisata Desa</a>
                     </li>
                     @endif
-                @if (Auth::User()->role_id != 4)
+                {{-- @if (Auth::User()->role_id != 4)
                 <li>
                     <a href="/kelola-fasilitas">Fasilitas</a>
                 </li>
-                @endif
+                @endif --}}
 
 
                 <li>
                     <a href="/kelola-berita">Berita</a>
                 </li>
 
-                @if (Auth::User()->role_id != 4)
+                {{-- @if (Auth::User()->role_id != 4)
                 <li>
                     <a href="#homeSubmenuPaket" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         Paket Wisata
@@ -207,7 +207,7 @@
                         </li>
                     </ul>
                 </li>
-                @endif
+                @endif --}}
 
                 <li>
                     <a href="#subGaleri" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
